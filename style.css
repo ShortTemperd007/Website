@@ -866,3 +866,81 @@ p {
 }
 
 /* End  Media Query For Desktop */
+
+
+
+/* Existing styles */
+
+/* New Contact Form Styles */
+#new-contact {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#new-contact h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+#new-contact .form-group {
+    margin-bottom: 20px;
+}
+
+#new-contact label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+#new-contact input,
+#new-contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+#new-contact input:focus,
+#new-contact textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+#new-contact button {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#new-contact button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    #new-contact {
+        padding: 20px;
+    }
+    
+    #new-contact h2 {
+        font-size: 1.5rem;
+    }
+}
