@@ -868,14 +868,15 @@ p {
 /* End  Media Query For Desktop */
 
 
-
 /* Existing styles */
+
+
 
 /* New Contact Form Styles */
 #new-contact {
     background-color: #fff;
     padding: 40px;
-    margin: 20px auto;
+    margin: 100px auto;
     max-width: 600px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -944,3 +945,94 @@ p {
         font-size: 1.5rem;
     }
 }
+
+
+/* registration form */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f4f4f4;
+  }
+  
+  #registration {
+	background-color: #fff;
+	padding: 40px;
+	margin: 20px auto;
+	max-width: 600px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #registration h2 {
+	margin-bottom: 20px;
+	font-size: 2rem;
+	color: #333;
+	text-align: center;
+  }
+  
+  #registration .form-group {
+	margin-bottom: 20px;
+  }
+  
+  #registration .form-group label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 600;
+	color: #555;
+  }
+  
+  #registration .form-group input,
+  #registration .form-group select {
+	width: 100%;
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	margin-bottom: 10px;
+	transition: border-color 0.3s ease;
+  }
+  
+  #registration .form-group input:focus,
+  #registration .form-group select:focus {
+	border-color: #007BFF;
+	outline: none;
+  }
+  
+  #registration .radio-group {
+	display: flex;
+	gap: 10px;
+  }
+  
+  #registration .radio-group label {
+	font-weight: normal;
+  }
+  
+  #registration button {
+	display: inline-block;
+	width: 100%;
+	padding: 12px 0;
+	border: none;
+	border-radius: 5px;
+	background-color: #ff4757;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  #registration button:hover {
+	background-color: #e84118;
+  }
+  
+  @media (max-width: 600px) {
+	#registration {
+	  padding: 20px;
+	}
+  
+	#registration h2 {
+	  font-size: 1.5rem;
+	}
+  }
+  
